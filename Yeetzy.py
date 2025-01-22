@@ -78,3 +78,12 @@ def reroll_many(dice, mode):
                                                 index = list_unmatched_dice(dice, mode)
                                                 reroll_one(dice, index)
                                             else:
+                                                if dice[10] != mode:
+                                                    index = list_unmatched_dice(dice, mode)
+                                                    reroll_one(dice, index)
+                                                else:
+                                                    if dice[11] != mode:
+                                                        index = list_unmatched_dice(dice, mode)
+                                                        reroll_one(dice, index)
+                                                    else:
+                                                        

@@ -24,8 +24,57 @@ def count_frequency(dice, number):
 def find_mode(dice):
     pass
 def list_unmatched_dice(dice, mode):
-    index = 00
+    index = []
+    for indec in dice:
+        if indec != mode:
+            index.append(indec)
+    return(index)
 def reroll_one(dice, index):
-    pass
-def reroll_many(dice):
-    pass
+    for indec in index:
+        bill = roll_die()
+        del dice[indec]
+        dice.insert(indec, bill)
+def reroll_many(dice, mode):
+    rere = 'false'
+    index = []
+    while rere == 'false':
+        if dice[0] != mode:
+            index = list_unmatched_dice(dice, mode)
+            reroll_one(dice, index)
+        else:
+            if dice[1] != mode:
+                index = list_unmatched_dice(dice, mode)
+                reroll_one(dice, index)
+            else:
+                if dice[2] != mode:
+                    index = list_unmatched_dice(dice, mode)
+                    reroll_one(dice, index)
+                else:
+                    if dice[3] != mode:
+                        index = list_unmatched_dice(dice, mode)
+                        reroll_one(dice, index)
+                    else:
+                        if dice[4] != mode:
+                            index = list_unmatched_dice(dice, mode)
+                            reroll_one(dice, index)
+                        else:
+                            if dice[5] != mode:
+                                index = list_unmatched_dice(dice, mode)
+                                reroll_one(dice, index)
+                            else:
+                                if dice[6] != mode:
+                                    index = list_unmatched_dice(dice, mode)
+                                    reroll_one(dice, index)
+                                else:
+                                    if dice[7] != mode:
+                                        index = list_unmatched_dice(dice, mode)
+                                        reroll_one(dice, index)
+                                    else:
+                                        if dice[8] != mode:
+                                            index = list_unmatched_dice(dice, mode)
+                                            reroll_one(dice, index)
+                                        else:
+                                            if dice[9] != mode:
+                                                index = list_unmatched_dice(dice, mode)
+                                                reroll_one(dice, index)
+                                            else:

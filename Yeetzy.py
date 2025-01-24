@@ -1,26 +1,48 @@
 import random as r
+#mylist=[]
+#maxx = max(mylist)
+#mylist.index(maxx)
+
 def main():
+    global games
+    s1 = 0
+    s2 = 0
+    s3 = 0
+    s4 = 0
+    s5 = 0
+    s6 = 0
     # accepts no arguments
     # Calls all functions to play a number of games
-    games = input("How many games: ")
-    dice = [1, 2, 3, 4, 5, 6]
-    #count_frequency()
-    
-def output_dice(dice):
+    games = int(input("How many games: "))
+    roll_die()
+    output_dice()
+def output_dice():
     #accepts no arguments
     #outputs each die in the list
-    for number in dice:
-        print (number)
-        
+    print (f"roll:{numbers}: ", dice_roll)
+    
 def roll_die():
     #accepts no arguments
     #Returns a random integer from 1 to 6
-    dice_roll = r.randint(1, 6)
+    for numbers in range(games):
+        dice_roll = r.randint(1, 5 + 1)
+        numbers += 1
     
 def first_roll():
     pass
 def count_frequency(dice, number):
-    pass
+    if dice_roll == 1:
+        s1 += 1
+    if dice_roll == 2:
+        s2 += 1
+    if dice_roll == 3:
+        s3 += 1
+    if dice_roll == 4:
+        s4 += 1
+    if dice_roll == 5:
+        s5 += 1
+    if dice_roll == 6:
+        s6 += 1
 def find_mode(dice):
     pass
 def list_unmatched_dice(dice, mode):

@@ -51,11 +51,11 @@ def count_frequency(dice, number):
             s6 += 1
     bing = [s1, s2, s3, s4, s5, s6]
     return bing
+    
+def find_mode(dice, bing):
+    count_frequency()
     maxx = max(bing)
     popo = bing.index(maxx)
-    
-def find_mode(dice):
-    count_frequency()
     
 def list_unmatched_dice(dice, mode):
     index = []

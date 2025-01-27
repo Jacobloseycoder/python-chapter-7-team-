@@ -1,25 +1,19 @@
 import random as r
-#mylist=[]
-#maxx = max(mylist)
-#popo = mylist.index(maxx)
 
 def main():
-    global games
-    s1 = 0
-    s2 = 0
-    s3 = 0
-    s4 = 0
-    s5 = 0
-    s6 = 0
     # accepts no arguments
     # Calls all functions to play a number of games
     games = int(input("How many games: "))
-    roll_die()
-    output_dice()
-def output_dice():
+    dice = first_roll()
+    output_dice(dice)
+    bing = count_frequency(dice)
+    mode = find_mode(bing)
+    list_unmatched_dice(dice, mode)
+    reroll_many(dice, mode)
+def output_dice(dice):
     #accepts no arguments
     #outputs each die in the list
-    print (f"roll:{numbers}: ", dice_roll)
+    print (f"roll:{numbers}: ", dice)
     
 def roll_die():
     #accepts no arguments
@@ -34,8 +28,8 @@ def first_roll():
         gg = roll_die()
         dice.append(gg)
         bb = bb + 1
-        
-def count_frequency(dice, number):
+    return dice
+def count_frequency(dice):
     for dice_roll in dice:
         if dice_roll == 1:
             s1 += 1
@@ -52,10 +46,11 @@ def count_frequency(dice, number):
     bing = [s1, s2, s3, s4, s5, s6]
     return bing
     
-def find_mode(dice, bing):
+def find_mode(bing):
     count_frequency()
     maxx = max(bing)
-    popo = bing.index(maxx)
+    mode = bing.index(maxx)
+    return mode
     
 def list_unmatched_dice(dice, mode):
     index = []
@@ -63,11 +58,13 @@ def list_unmatched_dice(dice, mode):
         if indec != mode:
             index.append(indec)
     return(index)
+
 def reroll_one(dice, index):
     for indec in index:
         bill = roll_die()
         del dice[indec]
         dice.insert(indec, bill)
+        
 def reroll_many(dice, mode):
     rere = 'false'
     times = 0

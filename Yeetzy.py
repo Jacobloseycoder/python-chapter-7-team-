@@ -1,7 +1,7 @@
 import random as r
 #mylist=[]
 #maxx = max(mylist)
-#mylist.index(maxx)
+#popo = mylist.index(maxx)
 
 def main():
     global games
@@ -24,27 +24,39 @@ def output_dice():
 def roll_die():
     #accepts no arguments
     #Returns a random integer from 1 to 6
-    for numbers in range(games):
-        dice_roll = r.randint(1, 5 + 1)
-        numbers += 1
+    number = r.randint(1, 6)
+    return number
     
 def first_roll():
-    pass
+    dice = []
+    bb = 1
+    while bb <= 12:
+        gg = roll_die()
+        dice.append(gg)
+        bb = bb + 1
+        
 def count_frequency(dice, number):
-    if dice_roll == 1:
-        s1 += 1
-    if dice_roll == 2:
-        s2 += 1
-    if dice_roll == 3:
-        s3 += 1
-    if dice_roll == 4:
-        s4 += 1
-    if dice_roll == 5:
-        s5 += 1
-    if dice_roll == 6:
-        s6 += 1
+    for dice_roll in dice:
+        if dice_roll == 1:
+            s1 += 1
+        if dice_roll == 2:
+            s2 += 1
+        if dice_roll == 3:
+            s3 += 1
+        if dice_roll == 4:
+            s4 += 1
+        if dice_roll == 5:
+            s5 += 1
+        if dice_roll == 6:
+            s6 += 1
+    bing = [s1, s2, s3, s4, s5, s6]
+    return bing
+    maxx = max(bing)
+    popo = bing.index(maxx)
+    
 def find_mode(dice):
-    pass
+    count_frequency()
+    
 def list_unmatched_dice(dice, mode):
     index = []
     for indec in dice:

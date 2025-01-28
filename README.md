@@ -7,15 +7,15 @@ it uses random to pick random number 1-6 on a die and then you reroll
 ###  Flowchart
 ```mermaid
 graph TD;
-main-->first roll;
-main-->reroll many;
-main-->output dice;
-first roll--roll;
-find mode-->count frequency
-main-->list unmatched dice
-reroll many-->reroll 1
-reroll 1--> roll
-reroll many-->find mode
+  main-->first roll;
+  main-->reroll many;
+  main-->output dice;
+  first roll--roll;
+  find mode-->count frequency
+  main-->list unmatched dice
+  reroll many-->reroll 1
+  reroll 1--> roll
+  reroll many-->find mode
 ```
 
 #### Function Diagrams

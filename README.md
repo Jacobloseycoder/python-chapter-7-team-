@@ -1,5 +1,5 @@
 # ezee
-anthony, jacob, evan
+anthony,jacob,evan
 
 ##  Description
 it uses random to pick random number 1-6 on a die and then you reroll
@@ -7,15 +7,15 @@ it uses random to pick random number 1-6 on a die and then you reroll
 ###  Flowchart
 ```mermaid
 graph TD;
-  main-->first roll;
-  main-->reroll many;
-  main-->output dice;
-  first roll--roll;
-  find mode-->count frequency
-  main-->list unmatched dice
-  reroll many-->reroll 1
-  reroll 1--> roll
-  reroll many-->find mode
+  main-->first_roll;
+  main-->reroll_many;
+  main-->output_dice;
+  first_roll--roll;
+  find_mode-->count_frequency
+  main-->list unmatched_dice
+  reroll_many-->reroll_1
+  reroll_1--> roll
+  reroll_many-->find_mode
 ```
 
 #### Function Diagrams

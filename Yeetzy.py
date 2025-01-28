@@ -11,7 +11,7 @@ def main():
 def output_dice(dice):
     #accepts no arguments
     #outputs each die in the list
-    print()
+    print(dice)
     
 def roll_die():
     #accepts no arguments
@@ -27,6 +27,7 @@ def first_roll():
         dice.append(gg)
         bb = bb + 1
     return dice
+
 def count_frequency(dice):
     s1 = 0
     s2 = 0
@@ -54,13 +55,18 @@ def find_mode(dice):
     bing = count_frequency(dice)
     maxx = max(bing)
     mode = bing.index(maxx)
+    mode = mode + 1
+    #print(mode)
     return mode
     
 def list_unmatched_dice(dice, mode):
     index = []
+    tii = -1
     for indec in dice:
+        tii = tii + 1
         if indec != mode:
-            index.append(indec)
+            index.append(tii)
+    #print(index)
     return(index)
 
 def reroll_one(dice, index):

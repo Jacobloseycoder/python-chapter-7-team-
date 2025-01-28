@@ -12,7 +12,7 @@ graph TD;
   main-->output_dice;
   first_roll--roll;
   find_mode-->count_frequency
-  main-->list unmatched_dice
+  main-->list_unmatched_dice
   reroll_many-->reroll_1
   reroll_1--> roll
   reroll_many-->find_mode

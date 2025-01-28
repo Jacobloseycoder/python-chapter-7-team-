@@ -3,17 +3,15 @@ import random as r
 def main():
     # accepts no arguments
     # Calls all functions to play a number of games
-    games = int(input("How many games: "))
     dice = first_roll()
     output_dice(dice)
-    bing = count_frequency(dice)
-    mode = find_mode(bing)
+    mode = find_mode(dice)
     list_unmatched_dice(dice, mode)
     reroll_many(dice, mode)
 def output_dice(dice):
     #accepts no arguments
     #outputs each die in the list
-    print (f"roll:{numbers}: ", dice)
+    print()
     
 def roll_die():
     #accepts no arguments
@@ -30,6 +28,12 @@ def first_roll():
         bb = bb + 1
     return dice
 def count_frequency(dice):
+    s1 = 0
+    s2 = 0
+    s3 = 0
+    s4 = 0
+    s5 = 0
+    s6 = 0
     for dice_roll in dice:
         if dice_roll == 1:
             s1 += 1
@@ -46,8 +50,8 @@ def count_frequency(dice):
     bing = [s1, s2, s3, s4, s5, s6]
     return bing
     
-def find_mode(bing):
-    count_frequency()
+def find_mode(dice):
+    bing = count_frequency(dice)
     maxx = max(bing)
     mode = bing.index(maxx)
     return mode

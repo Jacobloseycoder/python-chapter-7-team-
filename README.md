@@ -20,19 +20,19 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| main    |               |  anthony    |
+| ------------------ | ------------- | ------------ |
+| Recieves no arguements    | calls all the programs to run the game |   outputs nothing           |
+|   |  |           |
+|    |  | |
+***
+| `function name2`    |               |     anthony   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     author   |
-| ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
-***
-| `function name2`    |               |     author   |
+| `function name2`    |               |     anthony   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |

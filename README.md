@@ -22,21 +22,17 @@ graph TD;
 
 | main    |               |  anthony    |
 | ------------------ | ------------- | ------------ |
-| Recieves no arguements    | calls all the programs to run the game |   outputs nothing           |
-|   |  |           |
-|    |  | |
+| Recieves no arguements    | calls all the programs to run the game |   outputs nothing          
 ***
-| `function name2`    |               |     anthony   |
+| roll    |               |     anthony   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| recives no arguments   | calls for the first roll |     outputs nothing         |
+
 ***
-| `function name2`    |               |     anthony   |
+| output dice    |               |     anthony   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| recivies no arguments   | outputs the dice to view the numbers  |    outputs nothing          |
+
 ***
 | `function name2`    |               |     author   |
 | ------------------ | ------------- | ------------ |

@@ -36,21 +36,21 @@ graph TD;
 ***
 | `first_roll`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for roll count  |              |
+| `time:integer`     | calculates same dice rolled  | outputs nothing             |
+| `name:string`      | takes input for name dice | returns total |
 ***
 | `count_frequency`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for roll count  |              |
+| `time:integer`     | calculates dice  | outputs constant             |
+| `name:string`      | takes input for name dice constant | returns total |
 ***
 | `find_mode`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for mode / constant  |              |
+| `time:integer`     | calculates dice same  | outputs dice numb             |
+| `name:string`      | takes input for name dice constant_ | returns total |
 ***
 | `list_unmatched_dice`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |

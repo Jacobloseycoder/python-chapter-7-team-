@@ -34,37 +34,37 @@ graph TD;
 | recivies no arguments   | outputs the dice to view the numbers  |    outputs nothing          |
 
 ***
-| `function name2`    |               |     evan   |
+| `first_roll`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     evan   |
+| `count_frequency`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     evan   |
+| `find_mode`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     Jacob   |
+| `list_unmatched_dice`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     Jacob   |
+| `reroll_one`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     Jacob   |
+| `reroll_many`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |

@@ -152,7 +152,5 @@ def reroll_many(dice, mode):
                                                         reroll_one(dice, index)
                                                         print('roll', times)
                                                         print(dice)
-                                                    else:
-                                                        rere = 'true'
-                                                        print('roll', times)
-                                                        print(dice)
+                                                        if dice[11] == mode:
+                                                            rere = 'true'

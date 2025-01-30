@@ -36,37 +36,37 @@ graph TD;
 ***
 | `first_roll`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for roll count  |              |
-| `time:integer`     | calculates same dice rolled  | outputs nothing             |
-| `name:string`      | takes input for name dice | returns total |
+|     | takes input from the user for roll count  |              |
+|      | calculates same dice rolled  | outputs nothing             |
+|       | takes input for name dice | returns total |
 ***
 | `count_frequency`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for roll count  |              |
-| `time:integer`     | calculates dice  | outputs constant             |
-| `name:string`      | takes input for name dice constant | returns total |
+|     | takes input from the user for roll count  |              |
+|      | calculates dice  | outputs constant             |
+|       | takes input for name dice constant | returns total |
 ***
 | `find_mode`    |               |     evan   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for mode / constant  |              |
-| `time:integer`     | calculates dice same  | outputs dice numb             |
-| `name:string`      | takes input for name dice constant_ | returns total |
+|     | takes input from the main for mode / constant  |              |
+|      | calculates dice same  | outputs dice numb             |
+|       | takes input for name dice constant_ | returns total |
 ***
 | `list_unmatched_dice`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+|     | takes input from the reroll_many for index |              |
+|      |   |              |
+|       | takes input for name ___ | returns index |
 ***
 | `reroll_one`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+|     | takes input from the reroll_many for deleating  |              |
+|      |   |              |
+|       |  |  |
 ***
 | `reroll_many`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+|     | takes input from the main for reroll_one and list_unmatched_dice  |              |
+|      |   | outputs list of dice             |
+|       |  |  |
 ***

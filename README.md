@@ -60,11 +60,8 @@ graph TD;
 | `reroll_one`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
 |     | takes input from the reroll_many for deleating  |              |
-|      |   |              |
-|       |  |  |
 ***
 | `reroll_many`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
-|     | takes input from the main for reroll_one and list_unmatched_dice  |              |
-|      |   | outputs list of dice             |
+|     | takes input from the main for reroll_one and list_unmatched_dice  |       outputs list of dice       |
 ***

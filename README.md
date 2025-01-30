@@ -55,8 +55,7 @@ graph TD;
 | `list_unmatched_dice`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
 |     | takes input from the reroll_many for index |              |
-|      |   |              |
-|       | takes input for name ___ | returns index |
+|       |  | returns index |
 ***
 | `reroll_one`    |               |     Jacob   |
 | ------------------ | ------------- | ------------ |
@@ -68,5 +67,4 @@ graph TD;
 | ------------------ | ------------- | ------------ |
 |     | takes input from the main for reroll_one and list_unmatched_dice  |              |
 |      |   | outputs list of dice             |
-|       |  |  |
 ***
